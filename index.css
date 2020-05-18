@@ -726,34 +726,25 @@
                                             color: white;
                                         }
                                         
-                                        @media(max-width:770px) {
-                                            #logo1 {
-                                                display: none;
-                                            }
-                                            #s5 {
-                                                display: grid;
-                                                grid-template-columns: repeat(2, 1fr);
-                                                width: 360px;
-                                            }
-                                            #k2>button {
-                                                width: 100px;
-                                                padding: 8px;
-                                                font-size: 15px;
-                                            }
-                                            #k2>hr {
-                                                width: 360px;
-                                            }
-                                            #k2>a {
-                                                font-size: 11px;
-                                                margin-left: 120px;
-                                            }
-                                            #s5>div>img {
-                                                width: 170px;
-                                                height: 90px;
-                                            }
-                                            #s5>div>div {
-                                                width: 160px;
-                                                font-size: 17px;
-                                                margin-bottom: 20px;
-                                            }
-                                        }
+                                        @media screen and (max-width:770px) {
+            #logo1 {
+                display: none;
+            }
+            .header {
+                width: 290px;
+            }
+            .s1 {
+                margin-left: 1px;
+            }
+            #i2,
+            #i3,
+            #i4,
+            #i5 {
+                display: none;
+            }
+            #i1 {
+                width: 270px;
+                height: 260px;
+                margin-left: 20px;
+            }
+        }
