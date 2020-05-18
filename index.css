@@ -731,7 +731,7 @@
                 display: none;
             }
             .header {
-                width: 290px;
+                width: 100%;
             }
             .s1 {
                 margin-left: 1px;
@@ -743,8 +743,8 @@
                 display: none;
             }
             #i1 {
-                width: 270px;
+                width: 80%;
                 height: 260px;
-                margin-left: 20px;
+                margin-left: 10px;
             }
 }
