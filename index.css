@@ -726,33 +726,54 @@
                                             color: white;
                                         }
                                         
-                                        @media (max-device-width: 770px) {
-            #logo1 {
-                display: none;
-            }
-            .header {
-                width: 360px;
-            }
-            .s1 {
-                margin-left: 1px;
-            }
-            #i2,
-            #i3,
-            #i4,
-            #i5 {
-                display: none;
-            }
-            #i1 {
-                width: 350px;
-                height: 260px;
-                margin-left: 5px;
-                margin-right: 5px;
-                margin-top: 2px;
-            }
-            #i1>button {
-                margin-top: 150px;
-            }
-            #i1>div {
-                width: 360px;
-            }
-        }
+                                          @media (max-device-width: 770px) {
+                            * {
+                                margin: 0;
+                                padding: 0;
+                            }
+                            #logo1 {
+                                display: none;
+                            }
+                            .header {
+                                max-width: 100%;
+                            }
+                            .s1 {
+                                margin-left: 1px;
+                            }
+                            #i2,
+                            #i3,
+                            #i4,
+                            #i5 {
+                                display: none;
+                            }
+                            #i1>div,
+                            #i1 {
+                                width: 100%;
+                                margin-left: 5%;
+                            }
+                            section {
+                                margin-left: 5%;
+                                margin-top: 30px;
+                            }
+                            section>div>div>hr {
+                                width: 90%;
+                            }
+                            #c {
+                                width: 90%;
+                                height: 60%;
+                            }
+                            #c>div {
+                                width: 100%;
+                            }
+                            #k11>div>img {
+                                margin-left: 1px;
+                                margin-top: 10px;
+                            }
+                            #k11>div>div {
+                                width: 90%;
+                                margin-top: 10px;
+                            }
+                            #br {
+                                display: none;
+                            }
+                        }
