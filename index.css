@@ -726,12 +726,12 @@
                                             color: white;
                                         }
                                         
-                                        @media screen and (max-width:770px) {
+                                        @media (max-device-width: 770px) {
             #logo1 {
                 display: none;
             }
             .header {
-                width: 100%;
+                width: 360px;
             }
             .s1 {
                 margin-left: 1px;
@@ -743,8 +743,16 @@
                 display: none;
             }
             #i1 {
-                width: 97%;
+                width: 350px;
                 height: 260px;
                 margin-left: 5px;
+                margin-right: 5px;
+                margin-top: 2px;
             }
-}
+            #i1>button {
+                margin-top: 150px;
+            }
+            #i1>div {
+                width: 360px;
+            }
+        }
