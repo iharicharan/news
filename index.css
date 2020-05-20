@@ -746,19 +746,19 @@
                 margin-left: 30px;
             }
             
+            input[type=button]:hover {
+                background-color: darkgreen;
+            }
+            
             @media screen and (max-width: 800px) {
                 #logo1 {
                     display: none;
                 }
                 .header {
-                    right: 0;
-                    left: 0;
-                    top: 0;
-                    position: fixed;
-                    width: 100%;
+                    text-align: center;
                 }
-                .s1 {
-                    margin-left: 1px;
+                body {
+                    width: 100%;
                 }
                 #i2,
                 #i3,
@@ -767,40 +767,34 @@
                     display: none;
                 }
                 #i1 {
-                    width: 360px;
-                    margin-left: 30px;
-                    margin-top: 30px;
+                    width: 100%;
+                    height: 80%;
                 }
                 #i1>button {
                     margin-left: 2px;
                 }
                 #i1>div {
-                    width: 360px;
+                    width: 95%;
                     margin-left: 2px;
                 }
-                section {
-                    margin-left: 2%;
-                    margin-top: 20px;
+                .s1 {
                     margin-left: 30px;
                 }
-                div>#k2>hr {
-                    width: 360px;
+                section {
+                    margin-top: 20px;
                 }
-                #k11 {
-                    margin-top: 1px;
+                div>#k2>hr {
+                    width: 90%;
                 }
                 #br {
                     display: none;
                 }
-                #c {
-                    width: 360px;
+                #k11>#c {
+                    width: 90%;
                     height: 28vh;
-                    border-radius: 2px;
-                    background-position: center;
-                    background-size: cover;
                 }
-                #divv>div>hr {
-                    width: 360px;
+                #k11>#c>div {
+                    width: 90%;
                 }
                 #c>button {
                     margin-top: 90px;
@@ -810,7 +804,7 @@
                     margin-top: 5px;
                 }
                 #k11>#div1>div {
-                    width: 85%;
+                    width: 90%;
                     margin-top: 5px;
                 }
                 #divv {
@@ -829,77 +823,74 @@
                 .a1>button {
                     width: 100px;
                 }
-                .s3>#k2>hr,
+                #k2>hr,
                 div>div>hr {
-                    width: 360px;
+                    width: 310px;
                 }
                 #h3>div>img {
-                    width: 360px;
+                    width: 90%;
                     height: 200px;
                     margin-top: 10px;
                 }
                 #h3>div>div {
-                    width: 360px;
+                    width: 90%;
                 }
                 div>div>a {
-                    margin-left: 158px;
+                    margin-left: 130px;
                 }
                 .h1,
                 .h2 {
-                    width: 360px;
+                    width: 90%;
                     margin-top: 10px;
                 }
                 .h3>div {
                     width: 85%;
                 }
                 #s5 {
-                    width: 360px;
+                    width: 90%;
                 }
                 #s5>div {
                     margin-bottom: 30px;
                 }
                 #s5>div>img {
-                    width: 167px;
-                    height: 150px;
+                    width: 95%;
+                    height: 100px;
                 }
                 #s5>div>div {
-                    width: 167px;
+                    width: 90%;
                 }
                 #div>a,
                 #k2>a {
-                    margin-left: 160px;
+                    margin-left: 40%;
                 }
                 #s7 {
                     margin-left: 2px;
                 }
                 #s7>div>div {
-                    width: 360px;
+                    width: 90%;
+                }
+                #section11>div>li {
+                    display: none;
+                }
+                #section11>div {
+                    margin-left: 100px;
                 }
                 #s6,
                 .k2 {
                     display: none;
                 }
-                footer,
-                #section {
-                    margin-left: 2px;
-                    width: 430px;
-                    left: 0;
-                    right: 0;
-                    margin-bottom: 1px;
+                div>#k2>#hr {
+                    width: 310px;
                 }
-                footer>div {
-                    margin-left: 2px;
-                }
-                #div>h4 {
-                    margin-left: 10px;
+                input[type=text] {
+                    width: 60%;
                 }
                 #div>div {
-                    width: 200px;
-                    margin-left: 10px;
+                    width: 300px;
+                    height: 100px;
+                    margin-left: 150px;
                 }
-                #section11 {
-                    display: grid;
-                    grid-template-rows: repeat(1, 1fr);
-                    width: 430px;
+                #div>h4 {
+                    margin-left: 250px;
                 }
             }
