@@ -965,6 +965,9 @@
                                                                                                                                        margin-top: 5px;
                                                                                                                                        margin-left: 20px;
                                                                                                                                    }
+                                                                                                                                   #br {
+                                                                                                                                       display: none;
+                                                                                                                                   }
                                                                                                                                    #search {
                                                                                                                                        display: block;
                                                                                                                                        float: right;
